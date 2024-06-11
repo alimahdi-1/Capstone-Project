@@ -53,12 +53,62 @@ img {
     font-family: "Abel";
     padding-top: 20px;
     border-bottom: #FF9F66 solid 20px;
+
 }
 .skills {
     font-size: 50px;
     font-weight: 300px;
-    text-align: ;
 }
 .h4-skills {
     text-align: center;
+}
+.touch {
+    display: grid;
+    height: 150px;
+    background-color: #c7c5ad;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Abel';
+    color: white;
+    text-align: center;
+    border: #ffffff 2px solid;
+
+
+}
+#button-touch {
+    background-color: #00ADB5 ;
+    border: none;
+    margin-top:  10px;
+
+}
+.footer {
+    height: 120px;
+    background-color:#FF9F66;
+    gap: 100px;
+
+}
+.na {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-content: space-between;
+    gap: 50px;
+    align-items: center;
+    color: #EEEEEE;    
+    
+}
+.na-1 {
+    display: flex;
+    justify-content: center;
+    color: #ebebebcc;
+    margin-top: -20px
+}
+@media (min-width: 319px) and (max-width: 700px) {
+    .my-skills {
+        padding-top: 130px;
+
+    }
+    img {
+        margin-bottom: 200px;
+    }
 }
